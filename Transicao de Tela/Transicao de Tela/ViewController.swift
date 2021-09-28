@@ -16,11 +16,14 @@ class ViewController: UIViewController {
 
 
     @IBAction func clicouBotaoProximaTelaCodeButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "telaDois", sender: nil)
+        self.performSegue(withIdentifier: "VerdeViewController", sender: "BackFront")
     }
     //usado para passar informaçao de uma tela para outra (prepareforsegue)
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if segue.identifier == "VerdeViewController"{
+            let vc: VerdeViewController? = segue.destination as? VerdeViewController
+            vc?.textValue = sender as? String
+        }
     }
 }
 

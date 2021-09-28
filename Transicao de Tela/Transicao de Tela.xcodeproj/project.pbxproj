@@ -16,6 +16,7 @@
 		3B3C017E26FABF7200F67FA8 /* Transicao_de_TelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C017D26FABF7200F67FA8 /* Transicao_de_TelaTests.swift */; };
 		3B3C018826FABF7200F67FA8 /* Transicao_de_TelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C018726FABF7200F67FA8 /* Transicao_de_TelaUITests.swift */; };
 		3B3C018A26FABF7200F67FA8 /* Transicao_de_TelaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C018926FABF7200F67FA8 /* Transicao_de_TelaUITestsLaunchTests.swift */; };
+		3B85D93A26FDBB08007F89D9 /* VerdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85D93926FDBB08007F89D9 /* VerdeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3B3C018326FABF7200F67FA8 /* Transicao de TelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transicao de TelaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3C018726FABF7200F67FA8 /* Transicao_de_TelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transicao_de_TelaUITests.swift; sourceTree = "<group>"; };
 		3B3C018926FABF7200F67FA8 /* Transicao_de_TelaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transicao_de_TelaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B85D93926FDBB08007F89D9 /* VerdeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3B3C016626FABF7100F67FA8 /* AppDelegate.swift */,
 				3B3C016826FABF7100F67FA8 /* SceneDelegate.swift */,
 				3B3C016A26FABF7100F67FA8 /* ViewController.swift */,
+				3B85D93926FDBB08007F89D9 /* VerdeViewController.swift */,
 				3B3C016C26FABF7100F67FA8 /* Main.storyboard */,
 				3B3C016F26FABF7200F67FA8 /* Assets.xcassets */,
 				3B3C017126FABF7200F67FA8 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3C016B26FABF7100F67FA8 /* ViewController.swift in Sources */,
+				3B85D93A26FDBB08007F89D9 /* VerdeViewController.swift in Sources */,
 				3B3C016726FABF7100F67FA8 /* AppDelegate.swift in Sources */,
 				3B3C016926FABF7100F67FA8 /* SceneDelegate.swift in Sources */,
 			);
